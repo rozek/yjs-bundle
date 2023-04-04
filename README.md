@@ -34,6 +34,8 @@ It currently bundles
 
 into a single monolith.
 
+## Usage ##
+
 As a consequence, import statements like those shown above will either have to be rewritten as
 
 ```
