@@ -12,9 +12,8 @@ import { WebsocketProvider } from 'y-websocket'
 import { YKeyValue }         from 'y-utility/y-keyvalue'
 ```
 
-may lead to a completely unpredictable behaviour of Yjs.
+may lead to a **completely unpredictable behaviour of Yjs**.
 
-A brief look into the browser console will reveal one or multiple error messages starting with
+A brief look into the browser console will reveal one or multiple error messages starting with `Yjs was already imported. This breaks constructor checks and will lead to issues!`
 
-```
-```
+As written by dmonad: this message has to be taken seriously - **Yjs will not work as expected**!
