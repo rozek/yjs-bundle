@@ -24,7 +24,11 @@
     "url": "git+https://github.com/rozek/yjs-bundle.git"
   },
   "keywords": [
-    "yjs","y-websocket","y-webrtc","y-indexeddb","y-keyvalue"
+    "yjs",
+    "y-websocket",
+    "y-webrtc",
+    "y-indexeddb",
+    "y-keyvalue"
   ],
   "author": "Andreas Rozek <a.rozek@gmx.de> (https://www.rozek.de/)",
   "license": "MIT",
@@ -32,5 +36,11 @@
     "url": "https://github.com/rozek/yjs-bundle/issues"
   },
   "homepage": "https://github.com/rozek/yjs-bundle#readme",
-  "dependencies": {}
+  "dependencies": {
+    "y-indexeddb": "^9.0.10",
+    "y-utility": "^0.1.3",
+    "y-webrtc": "^10.2.5",
+    "y-websocket": "^1.5.0",
+    "yjs": "^13.5.52"
+  }
 }
