@@ -73,7 +73,7 @@ The **potential disadvantage of importmaps**, however, is that you - or your cus
 * Chrome for Android ≥ 111
 * Safari on iOS ≥ 16.4
 
-(see [can I use](https://caniuse.com/import-maps) for additional details, especially if your browser is not listed above)
+(see "[Can I use](https://caniuse.com/import-maps)" for additional details, especially if your browser is not listed above)
  
 ## Build Instructions ##
 
