@@ -60,8 +60,21 @@ or - and that's the **recommended approach** - you will have to provide an impor
 </script>
 ```
 
-and use the same import statements as shown in the docs
+and use the same import statements as shown in the docs.
 
+The **potential disadvantage of importmaps**, however, is that you - or your customers - will need a reasonably modern browser. In particular, you will need
+
+* Chrome ≥ 89
+* MS Edge ≥ 89
+* Safari ≥ 16.4
+* Firefox ≥ 108
+* Opera ≥ 76
+<br>&nbsp;<br>
+* Chrome for Android ≥ 111
+* Safari on iOS ≥ 16.4
+
+(see [can I use](https://caniuse.com/import-maps) for additional details, especially if your browser is not listed above)
+ 
 ## Build Instructions ##
 
 You may easily build this package yourself.
