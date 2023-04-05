@@ -62,7 +62,7 @@ or - and that's the **recommended approach** - you will have to provide an impor
 
 and use the same import statements as shown in the docs.
 
-The **potential disadvantage of importmaps**, however, is that you - or your customers - will need a reasonably modern browser. In particular, you will need
+The **potential disadvantage of importmaps**, however, is that you - or your customers - will need a reasonably modern browser. Definitely supported browsers include:
 
 * Chrome ≥ 89
 * MS Edge ≥ 89
