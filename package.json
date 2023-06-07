@@ -1,6 +1,6 @@
 {
   "name": "yjs-bundle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "bundles several yjs packages in a single module in order to avoid \"Yjs was already imported\" problems",
   "type": "module",
   "browser": "./dist/yjs-bundle.js",
