@@ -31,6 +31,7 @@ It currently bundles
 * y-websocket
 * y-webrtc and
 * y-keyvalue
+* y-lwwmap
 
 into a single monolith.
 
@@ -42,6 +43,7 @@ As a consequence, import statements like those shown above will either have to b
 import * as Y                from 'https://rozek.github.io/yjs-bundle/dist/yjs-bundle.esm.js'
 import { WebsocketProvider } from 'https://rozek.github.io/yjs-bundle/dist/yjs-bundle.esm.js'
 import { YKeyValue }         from 'https://rozek.github.io/yjs-bundle/dist/yjs-bundle.esm.js'
+import { LWWMap }            from 'https://rozek.github.io/yjs-bundle/dist/yjs-bundle.esm.js'
 ```
 
 or - and that's the **recommended approach** - you will have to provide an importmap with the following contents:
@@ -54,7 +56,8 @@ or - and that's the **recommended approach** - you will have to provide an impor
     "y-indexeddb":  "https://rozek.github.io/yjs-bundle/dist/yjs-bundle.esm.js",
     "y-websocket":  "https://rozek.github.io/yjs-bundle/dist/yjs-bundle.esm.js",
     "y-webrtc":     "https://rozek.github.io/yjs-bundle/dist/yjs-bundle.esm.js",
-    "y-utility/y-keyvalue":"https://rozek.github.io/yjs-bundle/dist/yjs-bundle.esm.js"
+    "y-utility/y-keyvalue":"https://rozek.github.io/yjs-bundle/dist/yjs-bundle.esm.js",
+    "y-lwwmap":     "https://rozek.github.io/yjs-bundle/dist/yjs-bundle.esm.js"
   }
 }
 </script>
