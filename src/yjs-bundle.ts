@@ -8,10 +8,12 @@ import { WebsocketProvider, messageAuth, messageAwareness, messageQueryAwareness
 import { WebrtcConn, Room, SignalingConn, WebrtcProvider } from 'y-webrtc'
 // @ts-ignore
 import { YKeyValue } from 'y-utility/y-keyvalue'
+// @ts-ignore
+import { LWWMap } from 'y-lwwmap'
 
 export {
   PREFERRED_TRIM_SIZE, fetchUpdates, storeState, clearDocument, IndexeddbPersistence,
   WebsocketProvider, messageAuth, messageAwareness, messageQueryAwareness, messageSync,
   WebrtcConn, Room, SignalingConn, WebrtcProvider,
-  YKeyValue
+  YKeyValue, LWWMap
 }
