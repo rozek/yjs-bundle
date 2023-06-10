@@ -29,8 +29,8 @@ It currently bundles
 * Yjs
 * y-indexeddb
 * y-websocket
-* y-webrtc and
-* y-keyvalue
+* y-webrtc
+* y-keyvalue and
 * y-lwwmap
 
 into a single monolith.
