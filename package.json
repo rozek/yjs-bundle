@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "y-indexeddb": "github:rozek/y-indexeddb",
-    "y-lwwmap": "^0.1.8",
+    "y-lwwmap": "^0.1.9",
     "y-utility": "github:rozek/y-utility",
     "y-webrtc": "github:rozek/y-webrtc",
     "y-websocket": "github:rozek/y-websocket",
