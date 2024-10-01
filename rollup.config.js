@@ -3,13 +3,13 @@
 import commonjs   from '@rollup/plugin-commonjs'
 import resolve    from '@rollup/plugin-node-resolve'
 import typescript from '@rollup/plugin-typescript';
-import { terser } from 'rollup-plugin-terser'
+import terser from '@rollup/plugin-terser'
 
 export default {
   input:    './src/yjs-bundle.ts',
   output: [
     { 
-      file:      './dist/yjs-bundle.js',
+      file:      './dist/yjs-bundle.umd.js',
       format:    'umd', // builds for both Node.js and Browser
       name:      'yjs', // required for UMD modules
       noConflict:true,
